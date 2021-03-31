@@ -64,7 +64,7 @@ class CartItem extends React.Component {
         <p>Bathik dress [M] 1 qty RS. 3,500.00</p>
         <p>Bathik Saree [L] 1 qty RS. 5,000.00</p>
 
-        <div style={{paddingTop:"185px"}} className="phone d-flex justify-content-around">
+        <div style={{paddingTop:"120px"}} className="phone d-flex justify-content-around">
         <h4>Quantity</h4>
          <h4>5</h4>
         <h4>Total</h4>
