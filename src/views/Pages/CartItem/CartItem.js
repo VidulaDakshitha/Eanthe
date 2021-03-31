@@ -132,7 +132,7 @@ class CartItem extends React.Component {
         <h4>SUB TOTAL</h4>
         <h4>Rs 7,500.00</h4>
         </div>
-        <p>Tax included and shipping calculated at checkout</p>
+        <p className="pl-5" style={{paddingTop:"60px",paddingBottom:"60px"}}>Tax included and shipping calculated at checkout</p>
         <div className="desktop row">
 
         	<div className="col-lg-6 ">
@@ -183,7 +183,7 @@ class CartItem extends React.Component {
 
 {/* for phone */}
 
-                            <div onClick={()=>window.location.href="/payment"}  className="desktop pt-4 d-flex justify-content-center" >
+                            <div   onClick={()=>window.location.href="/payment"}  className="desktop pt-5 d-flex justify-content-center" >
 
                                             
 
@@ -200,7 +200,7 @@ class CartItem extends React.Component {
 
 {/* for desktop */}
 
-                                        <div onClick={()=>window.location.href="/payment"} className="phone pt-4 d-flex justify-content-center" >
+                                        <div   onClick={()=>window.location.href="/payment"} className="phone pt-5 d-flex justify-content-center" >
 
                                             
 

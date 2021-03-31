@@ -155,7 +155,17 @@ class Payment extends React.Component {
 
                                             
 
-                                                <div className="d-flex justify-content-center" style={{width:"70%",height:"300px",borderRadius:"30px",backgroundColor:"#CFFBCD"}}>
+                                                <div className="desktop d-flex justify-content-center" style={{width:"100%",height:"300px",borderRadius:"30px",backgroundColor:"#CFFBCD"}}>
+                                                        <div>
+                                                            <h4 className="pt-3 text-center">Express Checkout</h4>
+                                                        
+                                                            <img  width="187px" src={onepay} />
+                                                        
+                                                        </div>
+                                                </div>
+
+
+                                                 <div className="phone d-flex justify-content-center" style={{width:"70%",height:"300px",borderRadius:"30px",backgroundColor:"#CFFBCD"}}>
                                                         <div>
                                                             <h4 className="pt-3 text-center">Express Checkout</h4>
                                                         
