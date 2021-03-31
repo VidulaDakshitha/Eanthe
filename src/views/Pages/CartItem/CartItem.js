@@ -53,7 +53,7 @@ class CartItem extends React.Component {
 <div className="container">
  <div className="d-flex paddingvalues2 justify-content-end">
         <div className="col-lg-7 ">
-        <h2>Your Cart</h2>
+        <h2 style={{fontWeight:800}}>YOUR CART</h2>
         {/* <div className="d-flex justify-content-around">
          <p>Bathik dress</p>
          <p>5</p>
@@ -145,7 +145,7 @@ class CartItem extends React.Component {
 
             	<div className="col-lg-6">
                  <div className="pt-4 nav-button2">
-			  <a style={{width:"300px"}}
+			  <a style={{width:"300px",color:"black"}}
 				href="/payment"
 				>Check Out</a>
                 </div>
@@ -170,7 +170,7 @@ class CartItem extends React.Component {
 
             	<div className="col-lg-6">
                  <div className="nav-button2">
-			  <a style={{width:"220px"}}
+			  <a style={{width:"220px",color:"black"}}
 				href="/payment"
 				>Check Out</a>
                 </div>

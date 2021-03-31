@@ -218,7 +218,7 @@ onScrollVisit=(event)=>{
 							<h2 className="title wow slideInUpBig text-right"  data-wow-duration=".65s" data-wow-delay=".1s">BATIK</h2>
 						</div>
 						<div className="ovh text-right" >
-							<span className="sub-title wow slideInUpBig" data-wow-duration=".65s"
+							<span className="sub-title wow slideInUpBig"  data-wow-duration=".65s"
 								data-wow-delay=".3s">WILL MAKE YOU<br></br> EXTRA GLOWY.</span>
 						</div>
 
@@ -291,7 +291,7 @@ onScrollVisit=(event)=>{
 				<img  className="img-fluid" src={Logo} alt="" height="472px"></img>
 		</div>
 		<div className="col-lg-6 pt-5">
-		<h3><b>ABOUT US</b></h3>
+		<h3 style={{fontWeight:800}}><b>ABOUT US</b></h3>
 				<p className="pt-3">
 				Batik is an Indonesian technique of wax-resist dyeing applied to the whole cloth. This technique originated from the island of Java, Indonesia. Batik is made either by drawing dots and lines of the resist with a spouted tool called a canting, or by printing the resist with a copper stamp called a cap. Eanthe provides the speeciality of Batik. We provide the best service and guarantee to provide the most quality ready made batik garments for your needs. We cater Batik garments for your special events and occasions.
 				</p>
@@ -303,7 +303,7 @@ onScrollVisit=(event)=>{
 
 <section   style={{paddingLeft:"15px",paddingRight:"15px",paddingTop:"177px",marginLeft:"auto",marginRight:"auto"}}>
 <div className="d-flex justify-content-center" style={{paddingBottom:"126px"}}>
-<h1><b>COLLECTIONS</b></h1>
+<h1 style={{fontWeight:800}}><b>COLLECTIONS</b></h1>
 </div>
                         {/* <div className="row" id="productBox">
 
@@ -364,7 +364,7 @@ onScrollVisit=(event)=>{
 
 				<div className="col-lg-5 col-md-6" >
                 <div className="ovh pb-5">
-                <h3 className="sub-title2 wow slideInUpBig" style={{color:"white",fontWeight:"700"}}><b>WE ARE <br></br>GLAD YOU ARE HERE</b></h3>
+                <h3 className="sub-title2 wow slideInUpBig" style={{color:"white",fontWeight:"800"}}><b>WE ARE <br></br>GLAD YOU ARE HERE</b></h3>
                 </div>
 					<div className="banner-content">
 						<div className="ovh">

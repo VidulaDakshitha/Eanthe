@@ -171,7 +171,7 @@ window.addEventListener('scroll', this.onScrollVisit);
 <section className="paddingvalues3">
 <div className="container">
 
-<h1 className="text-center"><b>Collections</b></h1>
+<h1 className="text-center" style={{fontWeight:800}}><b>Collections</b></h1>
 
 
 

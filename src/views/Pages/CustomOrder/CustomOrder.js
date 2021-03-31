@@ -58,7 +58,7 @@ class CustomOrder extends React.Component {
         </div>
  <div className="col-lg-7">
  
- <h3 className="pt-5 text-center">Dear Customer</h3>
+ <h3 className="pt-5 text-center" style={{fontWeight:500}}>Dear Customer</h3>
 
  <p className="text-center">It will be a pleasure to design a customized garment for you.</p>
  <p className="text-center">Please do fill in your detail below</p>
