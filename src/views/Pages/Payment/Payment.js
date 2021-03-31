@@ -55,7 +55,7 @@ class Payment extends React.Component {
         
  <div className="col-lg-6" style={{borderRight:"2px solid lightgrey",height:"1000px"}}>
  
-                <h2 style={{paddingTop:"190px"}} className="text-center"><b>Shipping Details</b></h2>
+                <h2 style={{paddingTop:"190px",fontWeight:800}} className="text-center"><b>Shipping Details</b></h2>
 <div className="d-flex justify-content-center">
                 <div className="row pt-5" style={{width:"80%"}}>
                         <div style={{paddingLeft:0,paddingRight:0}} className=" text-center col-lg-6">
@@ -150,7 +150,7 @@ class Payment extends React.Component {
                 </div>
 
                    <div  className=" col-lg-6">
-                    <h2 style={{paddingTop:"190px"}} className="text-center"><b>Payment Options</b></h2>
+                    <h2 style={{paddingTop:"190px",fontWeight:800}} className="text-center"><b>Payment Options</b></h2>
                                 <div className="pt-4 d-flex justify-content-center" >
 
                                             
@@ -167,13 +167,23 @@ class Payment extends React.Component {
 
 <h3  style={{marginTop:"60px",color:"grey"}} className="container hrline"><b>OR</b></h3>
 
-<div className="d-flex justify-content-around">
+<div className="phone d-flex justify-content-around">
 <span className="spanbackground"></span>
 <span className="spanbackground1"></span>
 
 <span className="spanbackground2"></span>
 <span className="spanbackground3"></span>
 </div>
+
+
+<div className="desktop d-flex justify-content-between">
+<span className="pr-2 spanbackgroundp"></span>
+<span className="spanbackground1p"></span>
+
+<span className="spanbackground2p"></span>
+<span className="spanbackground3p"></span>
+</div>
+
 
     <div className="pt-3 text-center ">
                 <FormGroup className="d-flex align-items-center flex-column">
@@ -241,15 +251,15 @@ class Payment extends React.Component {
      </div>
 
 	<div className="phone pt-3 nav-button2 d-flex align-items-center flex-column">
-			  <a style={{width:"526px",height:"56px"}}
+			  <a style={{width:"526px",height:"56px",color:"black"}}
 				href="https://merchant.onepay.lk/"
 				>Check Out</a>
 			</div>
 
 
             	<div className="desktop pt-3 nav-button2 d-flex align-items-center flex-column">
-			  <a style={{width:"326px",height:"56px"}}
-				href="https://merchant.onepay.lk/"
+			  <a style={{width:"326px",height:"56px",color:"black"}}
+				href="/"
 				>Check Out</a>
 			</div>
 

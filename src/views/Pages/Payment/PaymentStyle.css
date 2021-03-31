@@ -12,6 +12,7 @@
     line-height: 1.2 !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
+    
 }
 
 
@@ -23,10 +24,10 @@
   
   .hrline:before,
   .hrline:after {
-    background-color: grey;
+    background-color: lightgrey;
     content: "";
     display: inline-block;
-    height: 1px;
+    height: 2px;
     position: relative;
     vertical-align: middle;
     width: 40%;
@@ -80,9 +81,60 @@
     height: 50px;
     width: 100px;
     -webkit-filter: drop-shadow(2px 2px 2px #222);
-    /* filter: drop-shadow(2px 2px 2px #222); */
+    filter: drop-shadow(2px 2px 2px #222);
     
 }
+
+
+
+
+
+.spanbackgroundp{
+    background:url("../../../assets/americanexpress.jpg");
+    background-size: 100% 100%;
+    border-radius: 40px;
+    height: 40px;
+    width: 80px;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+
+}
+
+.spanbackground1p{
+  background:url("../../../assets/discover.jpg");
+  background-size: 100% 100%;
+  border-radius: 40px;
+  height: 40px;
+  width: 80px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+ 
+
+ 
+}
+
+
+.spanbackground2p{
+  background:url("../../../assets/visa.jpg");
+  background-size: 100% 100%;
+  border-radius: 40px;
+  height: 40px;
+  width: 80px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+}
+
+.spanbackground3p{
+  background:url("../../../assets/master.jpg");
+  background-size: 100% 100%;
+  border-radius: 40px;
+  height: 40px;
+  width: 80px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  
+}
+
 
 
 .codeInput{

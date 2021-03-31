@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Link} from "react-router-dom";
 import Logo from "../../assets/logo.jpg"
 import Logo2 from "../../assets/logo2.jpg"
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -17,7 +17,7 @@ class Header extends Component {
 	<header className="header">
 		<nav className="navbar navbar-expand-lg fixed-top" id="main-nav">
 		  <div className="container">
-			<a className="navbar-brand" href="#">
+			<a className="navbar-brand" href="/">
 			  <img
 				className="white-logo"
 				src={Logo}
@@ -82,7 +82,7 @@ class Header extends Component {
 			</div>
 		
 				<div className="text-right order-2 order-lg-3">
-			<ShoppingCartIcon/>
+				<ShoppingCartIcon onClick={()=>window.location.href="/cart"}/>
 			</div>
 		
 		  </div>

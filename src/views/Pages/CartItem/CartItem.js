@@ -183,7 +183,7 @@ class CartItem extends React.Component {
 
 {/* for phone */}
 
-                            <div className="desktop pt-4 d-flex justify-content-center" >
+                            <div onClick={()=>window.location.href="/payment"}  className="desktop pt-4 d-flex justify-content-center" >
 
                                             
 
@@ -200,7 +200,7 @@ class CartItem extends React.Component {
 
 {/* for desktop */}
 
-                                        <div className="phone pt-4 d-flex justify-content-center" >
+                                        <div onClick={()=>window.location.href="/payment"} className="phone pt-4 d-flex justify-content-center" >
 
                                             
 

@@ -293,7 +293,7 @@ onScrollVisit=(event)=>{
 		<div className="col-lg-6 pt-5">
 		<h3><b>ABOUT US</b></h3>
 				<p className="pt-3">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+				Batik is an Indonesian technique of wax-resist dyeing applied to the whole cloth. This technique originated from the island of Java, Indonesia. Batik is made either by drawing dots and lines of the resist with a spouted tool called a canting, or by printing the resist with a copper stamp called a cap. Eanthe provides the speeciality of Batik. We provide the best service and guarantee to provide the most quality ready made batik garments for your needs. We cater Batik garments for your special events and occasions.
 				</p>
 		</div>
 </div>
