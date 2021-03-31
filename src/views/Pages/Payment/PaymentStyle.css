@@ -1,0 +1,106 @@
+.newpadding{
+    padding-top: 10rem;
+    /* padding-left: 3rem;
+    padding-right:3rem ; */
+    margin: 0% !important;
+}
+
+.InputStyle{
+    border-radius: 40px !important;
+    width: 80% !important;
+    height: 50px !important;
+    line-height: 1.2 !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+
+.hrline {
+    overflow: hidden;
+    color:"grey";
+    text-align: center;
+  }
+  
+  .hrline:before,
+  .hrline:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+  }
+  
+  .hrline:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .hrline:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+
+  .spanbackground{
+      background:url("../../../assets/americanexpress.jpg");
+      background-size: 100% 100%;
+      border-radius: 40px;
+      height: 50px;
+      width: 100px;
+      -webkit-filter: drop-shadow(2px 2px 2px #222);
+      filter: drop-shadow(2px 2px 2px #222);
+  }
+
+  .spanbackground1{
+    background:url("../../../assets/discover.jpg");
+    background-size: 100% 100%;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+
+}
+
+.spanbackground2{
+    background:url("../../../assets/visa.jpg");
+    background-size: 100% 100%;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
+}
+
+.spanbackground3{
+    background:url("../../../assets/master.jpg");
+    background-size: 100% 100%;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    /* filter: drop-shadow(2px 2px 2px #222); */
+    
+}
+
+
+.codeInput{
+    border-radius: 40px 0px 0px 40px !important;
+    height: 50px !important;
+    
+}
+
+.codeButton{
+    border-radius: 0px 40px 40px 0px !important;
+    background-color: red !important;
+    height: 50px !important;
+}
+
+.InputStyle3{
+    border-radius: 40px !important;
+    width: 100% !important;
+    height: 50px !important;
+    line-height: 1.2 !important;
+    
+}

@@ -1,0 +1,25 @@
+.paddingvalues{
+    padding-top: 10rem;
+    padding-left: 3rem;
+    padding-right:3rem ;
+    margin: 0% !important;
+}
+
+.InputStyle{
+    border-radius: 40px !important;
+    width: 80% !important;
+    height: 50px !important;
+    line-height: 1.2 !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+.InputStyleMessage{
+    border-radius: 40px !important;
+    width: 80% !important;
+    height: 120px !important;
+    line-height: 1.2 !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  padding-top: 15px !important;
+}

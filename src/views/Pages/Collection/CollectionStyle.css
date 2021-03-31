@@ -1,0 +1,50 @@
+.DivStyle{
+    height: 400px !important;
+    width: 100% !important;
+    background-color: rgba(3, 0, 0, 0.479) !important;
+    background-blend-mode: multiply !important;
+ margin-top: 100px;
+}
+
+
+.DivStyle2{
+  
+    background-color: rgba(3, 0, 0, 0.479) !important;
+    background-blend-mode: multiply !important;
+
+}
+
+.paddingvalues3{
+    padding-top: 20rem;
+    padding-left: 3rem;
+    padding-right:3rem ;
+    margin-bottom: 0%;
+}
+
+
+
+.hrline {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .hrline:before,
+  .hrline:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .hrline:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .hrline:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }

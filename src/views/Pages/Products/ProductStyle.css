@@ -1,0 +1,32 @@
+.productTags{
+    border:"1px solid";
+    border-radius: 50%;
+    background-color: white;
+    height:30px;
+    width: 30px;
+
+border-color: blue;
+}:focus{
+    color:white;
+    background-color: blue;
+}
+
+
+.iconname {
+    background: url('../../../assets/buynow.png');
+    width: 36px;
+    height: 36px;
+ 
+    background-size:cover ;
+    /* Other styles here */
+}
+
+
+.iconname2 {
+    background: url('../../../assets/cart.png');
+    width: 36px;
+    height: 36px;
+ 
+    background-size:cover ;
+    /* Other styles here */
+}
