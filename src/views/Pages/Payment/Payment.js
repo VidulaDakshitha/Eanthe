@@ -260,14 +260,14 @@ class Payment extends React.Component {
       </InputGroup>
      </div>
 
-	<div className="phone pt-3 nav-button2 d-flex align-items-center flex-column">
+	<div className="phone pt-3 pb-5 nav-button2 d-flex align-items-center flex-column">
 			  <a style={{width:"526px",height:"56px",color:"black"}}
 				href="https://merchant.onepay.lk/"
 				>Check Out</a>
 			</div>
 
 
-            	<div className="desktop pt-3 nav-button2 d-flex align-items-center flex-column">
+            	<div className="desktop pt-3 pb-3 nav-button2 d-flex align-items-center flex-column">
 			  <a style={{width:"326px",height:"56px",color:"black"}}
 				href="/"
 				>Check Out</a>
